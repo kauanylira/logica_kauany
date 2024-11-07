@@ -7,6 +7,10 @@ programa {
 escreva("qual a distancia percorrida")
 leia(DISTANCIA)
 escreva("qual a velocidade media")
-leia(DISTANCIA)
+leia(VELOCIDADE)
+
+TEMPO = DISTANCIA/VELOCIDADE
+escreva("o tempo estimado e de:")
+escreva(TEMPO)
   }
 }
